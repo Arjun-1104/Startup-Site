@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signUp{
+    background-color: rgb(125, 54, 239);
+}
+
+
+.card-div{
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(125, 54, 239);
+
+
+}
+.banner-with-mail{
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+.signUp-form{
+    height: 35rem;
+    width: 50rem;
+    position: fixed;
+    top:50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: none;
+    /* z-index: 1; */
+    /* visibility: hidden; */
+}
